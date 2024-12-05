@@ -125,3 +125,6 @@ def main(args=None):
 if __name__ == "__main__":
     main()
 
+
+
+colcon build --symlink-install --packages-select image_processing_2025
